@@ -1,40 +1,33 @@
 # netflix
 
+This is a Next.js project bootstrapped with create-next-app.
+
 Getting Started
-Prerequisites
-Node.js - version 14.0 or higher
-Installation
-Clone the repository:
+First, run the development server:
 
-bash
-Copy code
-git clone  => your repo
-cd react-typescript
-Install dependencies:
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+Open http://localhost:3000 with your browser to see the result.
 
-Copy code
-npm install
-Usage
-To start a development server, run:
+You can start editing the page by modifying pages/index.tsx. The page auto-updates as you edit the file.
 
-sql
-Copy code
-npm start
-This will start a development server at http://localhost:3000.
+API routes can be accessed on http://localhost:3000/api/hello. This endpoint can be edited in pages/api/hello.ts.
 
-To build the production version of the app, run:
+The pages/api directory is mapped to /api/*. Files in this directory are treated as API routes instead of React pages.
 
-arduino
-Copy code
-npm run build
-This will create a production-ready build in the build directory.
+This project uses next/font to automatically optimize and load Inter, a custom Google Font.
 
-Features
-This starter template includes the following features:
+Learn More
+To learn more about Next.js, take a look at the following resources:
 
-React - A JavaScript library for building user interfaces.
-TypeScript - A superset of JavaScript that adds optional static typing and other features.
-Webpack - A module bundler for JavaScript applications.
-Babel - A toolchain for converting modern JavaScript into a format compatible with older browsers.
-ESLint - A linter tool for identifying and reporting on patterns in JavaScript code.
-Prettier - A code formatter that ensures consistent formatting across a codebase.
+Next.js Documentation - learn about Next.js features and API.
+Learn Next.js - an interactive Next.js tutorial.
+You can check out the Next.js GitHub repository - your feedback and contributions are welcome!
+
+Deploy on Vercel
+The easiest way to deploy your Next.js app is to use the Vercel Platform from the creators of Next.js.
+
+Check out our Next.js deployment documentation for more details.
