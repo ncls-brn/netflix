@@ -2,6 +2,7 @@ import Input from "@/components/input";
 import axios from "axios";
 import { useCallback, useState } from "react";
 
+
 const Auth = () => {
   const [email, setEmail] = useState("");
   const [name, setName] = useState("");
