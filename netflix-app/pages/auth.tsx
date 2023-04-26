@@ -24,14 +24,10 @@ const Auth = () => {
             password,
             callbackUrl:'/profiles'
         });
-       
-
     }catch (error){
         console.log(error);
     }
   }, [email,password])
-
-
 
   const register = useCallback(async () => {
     try{
