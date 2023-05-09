@@ -4,7 +4,7 @@ import Navbar from "@/components/Navbar";
 import { NextPageContext } from "next"
 import { getSession } from "next-auth/react"
 import useMovieList from "@/hooks/useMovieList";
-import useFavorites from "@/hooks/userFavorites";
+import useFavorites from "@/hooks/useFavorites";
 
 
 export async function getServerSideProps(context: NextPageContext){
